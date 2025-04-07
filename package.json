@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "node --watch --import tsx server.ts",
     "start": "node --import tsx server.ts",
-    "test": "node --import tsx --test \"src/**/*.spec.ts\""
+    "test": "node --import tsx --test \"src/**/*.spec.ts\" --test-reporter spec"
   },
   "keywords": [],
   "author": "",
